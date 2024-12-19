@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qual é a KB?</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div class="quiz-container">
-      <h1>Qual é a KB?</h1>
-      <div id="score">Pontuação: 0</div>
-      <div id="progress-bar-container">
-        <div id="progress-bar"></div>
-      </div>
-      <div id="question" class="question">Carregando pergunta...</div>
-      <div id="options" class="options"></div>
-      <input
-        type="text"
-        id="answer"
-        placeholder="Digite o número da KB"
-        class="answer-input"
-        style="display: none"
-      />
-      <button id="submit-btn" onclick="submitAnswer()" style="display: none">
-        Enviar
-      </button>
-      <button id="restart-btn" onclick="restartQuiz()" style="display: none">
-        Reiniciar
-      </button>
-      <button id="end-btn" onclick="endQuiz()" style="display: none">
-        Finalizar
-      </button>
-      <div id="feedback" class="feedback"></div>
+        <h1>Qual é a KB?</h1>
+        <div id="score">Pontuação: 0</div>
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="question" class="question">Carregando pergunta...</div>
+        <div id="options" class="options"></div>
+        <input type="text" id="answer" placeholder="Digite o número da KB" class="answer-input" style="display: none;"/>
+        <button id="submit-btn" onclick="submitAnswer()" style="display: none;">Enviar</button>
+        <button id="restart-btn" onclick="restartQuiz()" style="display: none;">Reiniciar</button>
+        <button id="end-btn" onclick="endQuiz()" style="display: none;">Finalizar</button>
+        <div id="feedback" class="feedback"></div>
     </div>
 
+    <footer class="footer">
+        <p>Sugestões de outros jogos:</p>
+        <ul>
+            <li><a href="https://geovanajl.github.io/bra/" >Qual é o BRA?</a></li>
+            <li><a href="https://geovanajl.github.io/braintro/" >Qual é o Bra-Intro?</a></li>
+        </ul>
+    </footer>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
